@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Project 2 - Guessing Game</h1>
+    </header>
+    <nav>
+        <ul >
+            <li ><a class="active">Guessing Game</a></li>
+            <li><a href="subpage/calc.html">Grade Calculator</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Guessing Game!</h2>
+        <p>You have 10 tries to guess the random number between 1-100!</p>
+        <div id="guess-game">
+            <label for="guess">Enter Guess: </label><input type="text" name="guess" class="guess">
+            <input type="submit" value="Enter Your Guess" class="enterGuess">
+            <br>
+            <br>
+        </div>
+        <div class="results">
+            <p class="previousGuesses"></p>
+            <p class="result"></p>
+            <p class="hint"></p>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

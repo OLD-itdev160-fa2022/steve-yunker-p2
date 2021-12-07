@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Project 2 - Gradebook</h1>
+    </header>
+    <nav>
+        <ul >
+            <li ><a href="../index.html">Guessing Game</a></li>
+            <li><a class="active">Grade Calculator</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Enter your grades to get your average and letter grade!</h2>
+        <div>
+            <label for="grade">Enter Grade: </label><input type="text" name="grade" class="grade">
+            <input type="submit" value="Enter Your Grade" class="enterGrade">
+            <input type="button" value="Get Grade" class="getGrade">
+            <input type="button" value="Reset Grades" class="reset">
+        </div>
+        <div class="grade-results">
+            <p class="gradesList"></p>
+            <p class="average"></p>
+            <p class="letterGrade"></p>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../scripts/gradebook.js"></script>
+</body>
+</html>

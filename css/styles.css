@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 1fr 1fr 60px;
+    grid-gap: 16px;
+    font-family: 'Fuzzy Bubbles';
+}
+header {
+    grid-row: 1 / 2;
+    grid-column: 1 / span 12;
+    background-color: aqua;
+    text-align: center;
+}
+nav {
+grid-row: 2 / 4;
+grid-column: 1 / span 12;
+background-color: blueviolet;
+}
+main {
+    grid-row: 4/6;
+    grid-column: 1 / span 12;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+    margin-bottom: 0;
+    border: 5px solid black;
+  }
+  
+nav li {
+    float: left;
+    margin-bottom: 0;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: rgb(141, 87, 141);
+  }
+
+
